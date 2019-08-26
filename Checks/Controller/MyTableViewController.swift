@@ -48,7 +48,6 @@ class MyTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "receiptCell", for: indexPath)
 
         // Configure the cell...
-        iterator = iterator + 1
         cell.textLabel?.text = "Receipt \(indexPath.row + 1)"
 //        cell.textLabel?.text = "Receipt \(iterator)"
         
