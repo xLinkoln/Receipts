@@ -49,7 +49,8 @@ class MyTableViewController: UITableViewController {
 
         // Configure the cell...
         iterator = iterator + 1
-        cell.textLabel?.text = "Receipt \(iterator)"
+        cell.textLabel?.text = "Receipt \(indexPath.row + 1)"
+//        cell.textLabel?.text = "Receipt \(iterator)"
         
 //        let receipt = receiptDatabase.receipts[indexPath.row]
         
